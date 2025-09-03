@@ -1,3 +1,1 @@
-select
-  *
-from {{ source('weatherstack', 'current_weather') }}
+select * from WEATHER_DATA.RAW._AIRBYTE_RAW_PULL_FORECAST
